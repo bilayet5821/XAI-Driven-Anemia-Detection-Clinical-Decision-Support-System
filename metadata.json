@@ -1,0 +1,6 @@
+{
+  "name": "AnemiaDiagnosis.com",
+  "description": "AI-powered clinical anemia prediction with explainable machine learning using SHAP analysis and interactive Plotly visualizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
