@@ -18,18 +18,21 @@
 
 ---
 
-## 📌 Overview
+## 📸 Research & Software Preview
 
-This project presents an **Explainable Artificial Intelligence (XAI)-driven Clinical Decision Support System (CDSS)** for interpretable anemia classification using raw hematological parameters.
+### XAI-Driven Anemia Clinical Decision Support Dashboard
 
-The research investigates machine-learning approaches for anemia classification while addressing an important limitation of conventional predictive systems: **lack of interpretability**.
+The interactive web application provides an intuitive interface for anemia
+prediction, confidence visualization, model-performance exploration, and
+SHAP-based explainability.
 
-The proposed framework combines predictive modeling with **SHAP (SHapley Additive exPlanations)** to provide feature-level explanations for model predictions. An interactive software interface further demonstrates how the research framework can be translated into a practical clinical decision-support prototype.
+![XAI-Driven Anemia Clinical Decision Support Dashboard](assets/anemia-cdss-dashboard.png)
 
-The project therefore focuses on two complementary goals:
+### 🌐 Live Application
 
-- 🔬 **Research:** Accurate and interpretable machine-learning-based anemia classification
-- 💻 **Software Development:** Translating the proposed framework into an interactive decision-support application
+🔗 **[Launch the XAI-Driven Anemia Detection System](https://bilayet5821.github.io/XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System/)**
+
+📄 **[View Research Poster](assets/XAI-Anemia-Research-Poster-DIU-2026.pdf)**
 
 > **Research Disclaimer:** This system is developed for research and educational purposes. It is not intended to replace professional medical diagnosis or clinical judgment.
 
@@ -396,7 +399,7 @@ Daffodil International University, Bangladesh
 ---
 
 ### **Sadaf M. Anis**
-Department of Computer Science and Engineering  
+Lecturer , Department of Computer Science and Engineering  
 Daffodil International University, Bangladesh
 
 ---
