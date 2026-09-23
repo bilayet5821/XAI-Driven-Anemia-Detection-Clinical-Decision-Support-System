@@ -1,311 +1,442 @@
 <div align="center">
 
 # 🩸 XAI-Driven Clinical Decision Support System
-### *Interpretable Anemia Classification Using Raw Hematological Parameters*
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Explainable+Artificial+Intelligence+(XAI);Clinical+Decision+Support+System;Random+Forest+%2B+SHAP+Explainability;98.98%25+Prediction+Accuracy;Real-Time+Anemia+Diagnosis+Dashboard" />
+### Interpretable Anemia Classification Using Raw Hematological Parameters
 
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn">
-<img src="https://img.shields.io/badge/SHAP-Explainable_AI-red?style=for-the-badge">
-<img src="https://img.shields.io/badge/Random%20Forest-98.98%25-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
-</p>
+**Research-Oriented Explainable AI + Interactive Clinical Decision Support Software**
+
+[![Research](https://img.shields.io/badge/Research-Explainable%20AI-blue?style=for-the-badge)](#)
+[![XAI](https://img.shields.io/badge/XAI-SHAP-red?style=for-the-badge)](#)
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-98.98%25-success?style=for-the-badge)](#)
+[![Healthcare AI](https://img.shields.io/badge/Domain-Healthcare%20AI-purple?style=for-the-badge)](#)
+
+### 🏆 1st Runner-Up — Research Poster Presentation
+**5th National Data Science Summit 2026 — Daffodil International University**
 
 </div>
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
-This project presents an **Explainable Artificial Intelligence (XAI) powered Clinical Decision Support System (CDSS)** for accurate and interpretable **Anemia Classification** using raw hematological parameters.
+This project presents an **Explainable Artificial Intelligence (XAI)-driven Clinical Decision Support System (CDSS)** for interpretable anemia classification using raw hematological parameters.
 
-Unlike traditional black-box AI systems, our framework integrates **SHAP (SHapley Additive Explanations)** to provide transparent, feature-level explanations for every prediction, enabling clinicians to understand *why* a patient is classified as Anemic or Normal.
+The research investigates machine-learning approaches for anemia classification while addressing an important limitation of conventional predictive systems: **lack of interpretability**.
+
+The proposed framework combines predictive modeling with **SHAP (SHapley Additive exPlanations)** to provide feature-level explanations for model predictions. An interactive software interface further demonstrates how the research framework can be translated into a practical clinical decision-support prototype.
+
+The project therefore focuses on two complementary goals:
+
+- 🔬 **Research:** Accurate and interpretable machine-learning-based anemia classification
+- 💻 **Software Development:** Translating the proposed framework into an interactive decision-support application
+
+> **Research Disclaimer:** This system is developed for research and educational purposes. It is not intended to replace professional medical diagnosis or clinical judgment.
 
 ---
 
-# 🎯 Research Motivation
+## 🏆 Achievement
 
-Anemia affects billions of people worldwide and remains one of the most common blood disorders.
+This research project achieved:
 
-Although Machine Learning models can achieve high prediction accuracy, most existing approaches suffer from one critical limitation:
+### 🥈 1st Runner-Up — Research Poster Presentation
 
-> ❌ They cannot explain **why** the prediction was made.
+at the **5th National Data Science Summit 2026**, organized at  
+**Daffodil International University (DIU), Bangladesh**.
 
-In healthcare, trust is just as important as accuracy.
+📄 **[View Research Poster](assets/XAI-Anemia-Research-Poster-DIU-2026.pdf)**
 
-Our research bridges this gap by combining:
+---
 
-- High Prediction Accuracy
-- Explainable AI
+## 🎯 Research Motivation
+
+Anemia is a major global health problem associated with low hemoglobin levels or insufficient red blood cells.
+
+Machine-learning models can assist in automated anemia screening, but high predictive performance alone is not sufficient for trustworthy clinical decision support.
+
+Many predictive systems operate as **black-box models**, making it difficult to understand which hematological parameters influenced a particular prediction.
+
+This research addresses that challenge by integrating:
+
+- Machine Learning
+- Explainable Artificial Intelligence (XAI)
+- Hematological Feature Engineering
+- SHAP-based Interpretation
 - Clinical Decision Support
-- Real-Time Dashboard
-- Commercial Deployment Potential
+- Interactive Software Visualization
+
+The objective is to move from:
+
+> **Prediction → Explanation → Interpretable Decision Support**
 
 ---
 
-# 🚀 Key Features
+## 🔬 Research Objectives
 
-✅ Explainable AI (XAI)
+The primary objectives of this research are:
 
-✅ Clinical Decision Support System
-
-✅ Random Forest Classifier
-
-✅ SHAP Explainability
-
-✅ Hb–MCV Ratio Feature Engineering
-
-✅ Real-Time Prediction Dashboard
-
-✅ Confidence Score
-
-✅ Interactive Prediction Visualization
-
-✅ Lightweight Deployment
-
-✅ Zero Additional Hardware Cost
+1. Develop an AI-based anemia classification framework using hematological parameters.
+2. Build and evaluate multiple machine-learning models for anemia prediction.
+3. Investigate feature engineering for improving hematological representation.
+4. Integrate **SHAP-based explainability** for transparent prediction analysis.
+5. Develop an interactive clinical decision-support prototype for real-time anemia screening.
 
 ---
 
-# 🏥 Dataset
+## ✨ Key Research Contributions
 
-| Property | Value |
-|-----------|-------|
-| Source | Medical Centre Hospital, Chattogram |
-| Patients | 1004 |
-| Features | 9 Hematological Parameters |
-| Classes | Normal / Anemia |
-| Problem Type | Binary Classification |
+- Developed an AI-based framework for anemia classification from hematological parameters.
+- Evaluated multiple machine-learning algorithms for predictive performance.
+- Achieved a reported **98.98% accuracy using Random Forest**.
+- Introduced an **Hb–MCV Ratio** as an engineered feature.
+- Integrated **SHAP explainability** for feature-level interpretation.
+- Developed an interactive clinical decision-support prototype.
+- Combined predictive performance with interpretable AI for healthcare-oriented decision support.
 
 ---
 
-# 📊 Methodology
+## 🏥 Dataset
+
+The study uses a hematological dataset collected from **Medical Centre Hospital, Chattogram, Bangladesh**.
+
+| Property | Details |
+|---|---|
+| Records | 1,004 patients |
+| Input Features | 9 hematological parameters |
+| Classes | Anemia / Normal |
+| Classification Type | Binary Classification |
+| Domain | Hematology / Healthcare AI |
+
+### Dataset Reference
+
+**Raw Hematological Dataset for Anemia Analysis and Classification**  
+Mendeley Data, Version 1, 2026.
+
+> Dataset usage and redistribution should follow the terms of the original dataset source.
+
+---
+
+## 🔬 Research Methodology
 
 ```text
-Raw CBC Data
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Preprocessing
-      │
-      ▼
-Feature Engineering
-(Hb–MCV Ratio)
-      │
-      ▼
-Model Training
-      │
-      ▼
-Random Forest
-      │
-      ▼
-Prediction
-      │
-      ▼
-SHAP Explainability
-      │
-      ▼
-Clinical Dashboard
+Raw Hematological Data
+          │
+          ▼
+    Data Processing
+          │
+          ▼
+   Feature Engineering
+     (Hb–MCV Ratio)
+          │
+          ▼
+Machine Learning Models
+          │
+          ▼
+ Model Evaluation & Comparison
+          │
+          ▼
+     Random Forest
+          │
+          ▼
+    Anemia Prediction
+          │
+          ▼
+   SHAP Explainability
+          │
+          ▼
+Interpretable Decision Support
+          │
+          ▼
+ Interactive Software Interface
 ```
 
 ---
 
-# ⚙️ Machine Learning Models
+## ⚙️ Machine Learning Experiments
 
-| Model | Accuracy |
-|---------|-----------|
+Multiple machine-learning models were evaluated during the research.
+
+| Model | Reported Accuracy |
+|---|---:|
 | Logistic Regression | 97.50% |
 | Gradient Boosting | 98.80% |
 | XGBoost | 97.50% |
-| ⭐ Random Forest | **98.98%** |
+| **Random Forest** | **98.98%** |
+
+Among the evaluated models, **Random Forest achieved the highest reported accuracy of 98.98%**.
 
 ---
 
-# 🧠 Explainable AI
+## 🧠 Explainable Artificial Intelligence
 
-Instead of only predicting the disease,
+Predictive accuracy alone does not explain why a model makes a particular decision.
 
-our system also explains:
+To improve transparency, this research integrates **SHAP (SHapley Additive exPlanations)**.
 
-✔ Which feature contributed the most
+SHAP analysis enables:
 
-✔ Why the patient is predicted as Anemic
+- Global feature-importance analysis
+- Patient-level prediction interpretation
+- Feature contribution analysis
+- SHAP waterfall explanations
+- Identification of influential hematological parameters
+- More transparent interpretation of model decisions
 
-✔ Individual Feature Importance
+Instead of providing only:
 
-✔ Confidence Score
+```text
+Prediction: Anemia
+```
 
-✔ SHAP Waterfall Explanation
+the framework aims to provide:
+
+```text
+Prediction
+    +
+Confidence
+    +
+Feature Contributions
+    +
+Explainable Interpretation
+```
 
 ---
 
-# 💻 Dashboard Features
+## 💻 Software Development
 
-- 📈 Real-Time Prediction
-- 📊 Interactive Visualization
-- 📋 CBC Input Form
-- 🎯 Prediction Confidence
-- 🔍 SHAP Explainability
-- 📑 Clinical Recommendation
-- 📂 Patient Report
-- 📥 Export Results
+In addition to the machine-learning research, the project includes an interactive software prototype that demonstrates how the proposed XAI framework can be presented as a usable decision-support system.
+
+### Software Features
+
+- Interactive hematological parameter input
+- Real-time prediction interface
+- Anemia / Normal classification
+- Prediction confidence visualization
+- SHAP contribution visualization
+- Patient-level explainability
+- Interactive clinical dashboard
+- Responsive user interface
+
+The software layer connects the research methodology with an accessible interface for demonstrating interpretable AI-assisted screening.
 
 ---
 
-# 🛠 Tech Stack
+## 🛠️ Repository Technology Stack
 
-| Category | Technology |
-|------------|-------------|
-| Language | Python |
-| ML | Scikit-Learn |
+The current software implementation uses a modern web application architecture.
+
+| Layer | Technology |
+|---|---|
+| Frontend | React |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | CSS |
+| Server | TypeScript / Node-based server |
+| Research Model | Random Forest |
 | Explainability | SHAP |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib |
-| Dashboard | HTML, CSS, JavaScript |
-| Backend | Flask |
-| Deployment | GitHub + Render |
+| Domain | Healthcare AI / Clinical Decision Support |
+
+> The machine-learning research methodology and the web-based demonstration application represent complementary components of the overall project.
 
 ---
 
-# 📈 Performance
+## 📂 Repository Structure
 
-✅ Accuracy : **98.98%**
-
-✅ High Precision
-
-✅ High Recall
-
-✅ High ROC-AUC
-
-✅ Clinically Explainable
-
----
-
-# 🌍 Business Impact
-
-This project is designed as a future-ready **HealthTech Startup**.
-
-Potential deployment:
-
-🏥 Hospitals
-
-🧪 Diagnostic Centers
-
-🏥 Rural Clinics
-
-💊 Telemedicine Platforms
-
-Revenue Model
-
-- SaaS Subscription
-- API Integration
-- Enterprise License
-- Clinical Dashboard
-
----
-
-# 📸 Project Preview
-
-> Add screenshots here
-
-```
-dashboard.png
-prediction.png
-shap.png
-roc_curve.png
-```
-
----
-
-# 📂 Project Structure
-
-```bash
-├── dataset/
-├── models/
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── templates/
-├── app.py
-├── requirements.txt
-├── model.pkl
+```text
+XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System/
+│
+├── assets/
+│   └── XAI-Anemia-Research-Poster-DIU-2026.pdf
+│
+├── src/
+│   ├── components/
+│   │   └── SHAPContributionChart.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── types.ts
+│
+├── .env.example
+├── .gitignore
+├── index.html
+├── metadata.json
+├── package.json
+├── package-lock.json
 ├── README.md
-└── LICENSE
+├── server.ts
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ---
 
-# 🚀 Installation
+## 🚀 Running the Software Locally
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/XAI-Anemia-CDSS.git
+git clone https://github.com/bilayet5821/XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System.git
+```
 
-cd XAI-Anemia-CDSS
+### 2. Enter the Project Directory
 
-pip install -r requirements.txt
+```bash
+cd XAI-Driven-Anemia-Detection-Clinical-Decision-Support-System
+```
 
-python app.py
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+If required, create your local environment file based on:
+
+```text
+.env.example
+```
+
+Do not commit private credentials or API keys.
+
+### 5. Run the Application
+
+```bash
+npm run dev
+```
+
+Then open the local URL displayed in the terminal.
+
+---
+
+## 📊 Research Results
+
+The experimental evaluation demonstrated strong classification performance across several machine-learning algorithms.
+
+The best-performing model was:
+
+**Random Forest — 98.98% reported accuracy**
+
+The research additionally integrates SHAP analysis to improve the interpretability of predictions and provide insight into the contribution of individual hematological parameters.
+
+---
+
+## 📸 Research & Software Preview
+
+This section can include:
+
+- Clinical dashboard interface
+- Prediction results
+- SHAP contribution visualization
+- SHAP waterfall plot
+- ROC-AUC analysis
+- Research methodology diagram
+- Poster presentation
+
+Example structure:
+
+```text
+assets/
+├── dashboard.png
+├── prediction-example.png
+├── shap-analysis.png
+├── methodology.png
+└── XAI-Anemia-Research-Poster-DIU-2026.pdf
 ```
 
 ---
 
-# 📚 Research Contributions
+## 🌍 Potential Impact
 
-✔ Explainable AI Framework
+The proposed framework demonstrates the potential of combining **machine learning and explainable AI** for healthcare-oriented decision-support research.
 
-✔ Novel Hb–MCV Ratio Feature
+Potential future applications include:
 
-✔ High Prediction Accuracy
+- Hospitals
+- Diagnostic laboratories
+- Primary healthcare facilities
+- Rural healthcare environments
+- Telemedicine platforms
+- AI-assisted screening systems
 
-✔ Clinical Decision Support
-
-✔ Real-Time Dashboard
-
-✔ HealthTech Commercialization
-
----
-
-# 👨‍💻 Authors
-
-**Md. Bilayet Hossain**
-
-Department of CSE
-
-Daffodil International University
+Further clinical validation would be required before any real-world clinical deployment.
 
 ---
 
-**Md. Asif Khandoker**
+## 🔭 Future Research
 
-Department of CSE
+Future work includes:
 
-Daffodil International University
-
----
-
-**Sadaf M. Anis**
-
-Department of CSE
-
-Daffodil International University
+- Evaluation using larger real-world multicenter datasets
+- External validation across different patient populations
+- Investigation of advanced ensemble and deep-learning models
+- Improved explainability and uncertainty estimation
+- Cloud-based decision-support deployment
+- Evaluation of clinical usability
+- Integration with broader healthcare information systems
 
 ---
 
-# 📜 License
+## 👥 Research Team
 
-This project is licensed under the MIT License.
+### **Md. Bilayet Hossain**
+**First Author**  
+Department of Computer Science and Engineering  
+Daffodil International University, Bangladesh
+
+Research Interests: Artificial Intelligence, Computer Vision, Medical Image Analysis, Explainable AI & Deep Learning
+
+---
+
+### **Md. Asif Khandokar**
+Department of Computer Science and Engineering  
+Daffodil International University, Bangladesh
+
+---
+
+### **Sadaf M. Anis**
+Department of Computer Science and Engineering  
+Daffodil International University, Bangladesh
+
+---
+
+## 📄 Research Poster
+
+The research methodology, experimental results, SHAP analysis, clinical decision-support interface, and research contributions are summarized in the official poster.
+
+### 🏆 1st Runner-Up
+**Research Poster Presentation — 5th National Data Science Summit 2026, DIU**
+
+📄 **[View the Full Research Poster](assets/XAI-Anemia-Research-Poster-DIU-2026.pdf)**
+
+---
+
+## 📜 Citation
+
+If you use or build upon this research, please acknowledge the authors and this repository.
+
+```text
+Md. Bilayet Hossain, Md. Asif Khandokar, and Sadaf M. Anis,
+"XAI-Driven Clinical Decision Support System for Interpretable
+Anemia Classification Using Raw Hematological Parameters,"
+Daffodil International University, 2026.
+```
+
+---
+
+## ⚖️ Responsible Use
+
+This repository is intended for **academic research, education, and software demonstration purposes**.
+
+The predictions generated by this prototype should **not** be interpreted as medical diagnoses or used independently for clinical decision-making.
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this project useful, please consider giving it a Star ⭐
+### ⭐ Research • Explainability • Healthcare AI • Software Engineering
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=20&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Thank+You+for+Visiting!;Explainable+AI+for+Healthcare;Building+Trustworthy+Clinical+Decision+Support+Systems" />
+**Building interpretable AI systems that connect research with real-world software.**
 
 </div>
